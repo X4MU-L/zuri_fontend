@@ -15,10 +15,9 @@ const Profile = () =>{
         if (navigator.share) {
             navigator.share({
               title: 'Link Tree Demo Share',
-              url: 'to be filled' //this needs to be created open deployment
-            }).then(() => {
-              console.log('Thanks for sharing!');
+              url: 'https://gilded-macaron-9c76fd.netlify.app/'
             })
+            .then(console.log('Thanks for sharing!'))
             .catch(console.error);
     }
 }
