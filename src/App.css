@@ -198,6 +198,50 @@ button{
     gap:24px
 }
 
+/* FOOTER STYLES */
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding:48px 0;
+}
+footer div.dic{
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-top: 1px solid #EAECF0;
+    width: 100%;
+    padding-top: 32px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:32px;
+
+}
+.footer img{
+    width: 100%;
+    height: 100%;
+}
+.footer .zuri-logo{
+    width:187.59px;
+    height: 32px;
+}
+.footer p{
+    margin: 0;
+    font-size: 16px;
+}
+.footer .i4g-logo{
+    width:132.13px;
+    height: 32px;
+}
+
+
+
 
 /* MEDIA QUERIES */
 @media (max-width: 992px) {
@@ -236,4 +280,28 @@ button{
     .link-items a{
         height: 68px;
     }
+    footer{
+        padding: 32px;
+    }
+    .footer{
+       flex-direction: column;
+       align-items: flex-start;
+       gap:16px;
+       
+    }
+    .footer .zuri-logo{
+        width:140.69px;
+        height: 24px;
+    }
+
+    .footer .i4g-logo{
+        height: 24px;
+        width:99.1px;
+    }
+
+
+    .footer p{
+        font-size: 14px;
+    }
+    
 }
