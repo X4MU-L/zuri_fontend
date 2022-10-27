@@ -43,7 +43,7 @@ export const LINKS = [
     {
         "id" : "book_python",
         "text": "Python Books",
-        "link": "https://books.zuri.team/python-for-beginners?ref_id=Chukwuebuka%20Samuel%20Okoli",
+        "link": "https://books.zuri.team/python-for-beginners?ref_id=Brownie",
     }
     ,
     {
