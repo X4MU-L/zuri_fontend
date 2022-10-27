@@ -2,6 +2,7 @@ import useScreenSize from "../hooks/useScreenSize";
 import { PROFILE as profile} from "../constant";
 import share from "../../src/assets/icons/share.svg"
 import more_dot from "../../src/assets/icons/dot.svg"
+import Links from "./Links";
 import { useState } from "react";
 
 
@@ -58,6 +59,7 @@ const Profile = () =>{
                     </div>}
                 </div>}
             </div>
+            <Links/>
         </div>
     )
 
