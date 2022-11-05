@@ -9,6 +9,7 @@ const Homepage = () => {
 		<div className="App">
 			<Routes>
 				<Route path="/" element={<Profile />} />
+				<Route path="/contact" element={<Contact />} />
 			</Routes>
             <Footer/>
          </div>

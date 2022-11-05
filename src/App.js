@@ -1,15 +1,8 @@
-import Profile from "./components/Profile";
-import "./App.css"
-import Footer from "./components/Footer";
-import Socials from "./components/Socials";
+import Rootrouter from "./routes/Rootrouter";
 
 function App() {
   return (
-    <div className="App">
-      <Profile/>
-      <Socials/>
-      <Footer/>
-    </div>
+    <Rootrouter/>
   );
 }
 
