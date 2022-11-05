@@ -4,6 +4,7 @@ import share from "../../src/assets/icons/share.svg"
 import more_dot from "../../src/assets/icons/dot.svg"
 import Links from "./Links";
 import { useState } from "react";
+import Socials from "./Socials";
 
 
 const Profile = () =>{
@@ -59,6 +60,7 @@ const Profile = () =>{
                 </div>}
             </div>
             <Links/>
+            <Socials/>
         </div>
     )
 

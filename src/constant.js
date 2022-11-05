@@ -56,7 +56,12 @@ export const LINKS = [
         "id" : "book__design",
         "text": "Design Books",
         "link": "https://books.zuri.team/design-rules",
+    },{
+        "id" : "contact",
+        "text": "Contact Me",
+        "link": "/contact",
     }
+
 ]
 
 export const SOCIALS = [
